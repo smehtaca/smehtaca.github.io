@@ -1,0 +1,63 @@
+baseURL = "https://smehta.ca/"
+languageCode = "en-us"
+title = "Sameer Mehta's Personal Website"
+theme = "typo"
+
+[taxonomies]
+tag = "tags"
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = "auto"
+colorPalette = "catpuccin"
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = "Hi there! 👋 I'm Sameer"
+homeIntroContent = """
+I'm a software engineer with 5+ years of experience building scalable production grade full stack web applications in the SAAS space in the Healthcare, Ecommerce, Real Estate and Sales Tech industries. 
+
+My interests range from AI, developer tools to SAAS and mobile apps. Welcome to my personal website!
+"""
+
+# Collection to display on home
+homeCollectionTitle = "Posts"
+homeCollection = "posts"
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = "2 Jan 2006"
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/smehtaca/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/smehtaca"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = "catppuccin-macchiato"
